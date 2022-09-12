@@ -106,3 +106,12 @@ p {
   margin-bottom: 0;
   list-style: none;
 }
+@media (max-width: 600px) {
+  .img-responsive {
+    display: none;
+  }
+  .link-responsive {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
