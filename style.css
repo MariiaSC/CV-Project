@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 100px 0;
 }
 
 h1,
@@ -99,6 +99,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.primary-link:hover {
+  color: white;
+}
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -113,5 +116,6 @@ p {
   .link-responsive {
     display: flex;
     justify-content: space-evenly;
+    margin: 0 30px;
   }
 }
